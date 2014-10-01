@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\staticLibs">
+      <UniqueIdentifier>{0e445483-8359-4f20-9b0b-68f0d683ac0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rendering">
+      <UniqueIdentifier>{65345d42-1bf5-4b03-8f83-abcff317004f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\physics">
+      <UniqueIdentifier>{0eb117ad-4d30-4985-b2e5-ef1c0cd8310c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{b520e6ba-a563-4137-96e6-70ed2cd1e4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components">
+      <UniqueIdentifier>{2289aeea-7a88-4fae-ab35-0293e96823a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\window">
+      <UniqueIdentifier>{e0145ba3-612e-4d86-bf84-f51e61b33de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{c9c34c89-391c-418b-94cf-1898d1322d9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\camera.cpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\lighting.cpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\material.cpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\mesh.cpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\renderingEngine.cpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\shader.cpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\texture.cpp">
+      <Filter>Header Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\aabb.cpp">
+      <Filter>Header Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\boundingSphere.cpp">
+      <Filter>Header Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\physicsObject.cpp">
+      <Filter>Header Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\plane.cpp">
+      <Filter>Header Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\coreEngine.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\entity.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\game.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\mappedValues.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\transform.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\freeLook.cpp">
+      <Filter>Header Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\freeMove.cpp">
+      <Filter>Header Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Clock.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Context.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\GlContext.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\GlResource.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Lock.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Mouse.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Mutex.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\MutexImpl.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Thread.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\ThreadImpl.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\ThreadLocal.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\ThreadLocalImpl.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Time.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\VideoMode.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\WglContext.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Window.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\WindowImplWin32.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\collider.cpp">
+      <Filter>Header Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\physicsEngine.cpp">
+      <Filter>Header Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\physicsEngineComponent.cpp">
+      <Filter>Header Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\physicsObjectComponent.cpp">
+      <Filter>Header Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Frustum.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\SystemInfo.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\Vector.cpp">
+      <Filter>Header Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\FileSystem.cpp">
+      <Filter>Header Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\Utilities.cpp">
+      <Filter>Header Files\window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\3DEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\staticLibs\stb_image.h">
+      <Filter>Header Files\staticLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\staticLibs\x86simdaccel.h">
+      <Filter>Header Files\staticLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\camera.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\lighting.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\material.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\mesh.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\renderingEngine.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\shader.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\aabb.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\boundingSphere.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\intersectData.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\physicsObject.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\plane.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\coreEngine.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\entity.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\entityComponent.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\game.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\mappedValues.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\referenceCounter.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\transform.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\meshRenderer.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\freeLook.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\freeMove.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Clock.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Config.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Context.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\ContextSettings.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Event.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\GlContext.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\glext.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\GlResource.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\glxext.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Keyboard.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Lock.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Mouse.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Mutex.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\MutexImpl.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\NonCopyable.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\OpenGL.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Thread.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\ThreadImpl.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\ThreadLocal.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\ThreadLocalImpl.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\ThreadLocalPtr.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Time.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Utilities.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\VideoMode.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\WglContext.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\wglext.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Window.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\WindowImplWin32.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\WindowStyle.hpp">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\collider.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\physicsEngine.h">
+      <Filter>Header Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\physicsEngineComponent.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\physicsObjectComponent.h">
+      <Filter>Header Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Frustum.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\FileSystem.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\SystemInfo.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\staticLibs\stb_image_write.h">
+      <Filter>Header Files\staticLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\Matrix.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\Quaternion.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\Vector.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\MathHelper.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\window\Thread.inl">
+      <Filter>Header Files\window</Filter>
+    </None>
+    <None Include="src\window\ThreadLocalPtr.inl">
+      <Filter>Header Files\window</Filter>
+    </None>
+  </ItemGroup>
+</Project>
