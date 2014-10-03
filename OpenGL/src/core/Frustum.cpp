@@ -6,8 +6,6 @@
 
 Frustum::Frustum(const Matrix4f& m)
 {
-	// I'll explain all this junk in a future video.
-
 	Vector3f right = Vector3f(m[0][3] - m[0][0], m[1][3] - m[1][0], m[2][3] - m[2][0]);
 
 	p[RIGHT] = Plane(right, m[3][3] - m[3][0]);
